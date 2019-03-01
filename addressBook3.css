@@ -1,0 +1,158 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/background.jpg');
+	background-attachment: fixed;
+}
+
+#container {
+	width: 100%;
+	height: 635px;
+	background-image: url('Images/background2.jpg');
+	position: relative;
+	padding-top: 20px;
+	background-attachment: fixed;
+}
+
+h2 {
+	display: inline;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: absolute;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: blue;
+	opacity: .6;
+	color: white;
+}
+
+#formSearch {
+	float: right;
+}
+
+#inputSearch {
+	width: 150px;
+	height: 38px;
+	font-size: 1rem;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 10px;
+	opacity: .8;
+	
+		
+}
+
+#inputSearch:hover {
+	opacity: 1;
+	box-shadow: 1px 1px 1px black: ;
+}
+
+#go {
+	height: 44px;
+	width: 50px;
+	margin-right: 10px;
+	margin-top: -10px;
+	border-radius: 50px;
+	cursor: pointer;
+	
+}
+
+#go:hover {
+	box-shadow: 1px 1px 1px black;
+	font-weight: bold;
+
+}
+
+#form {
+	margin: 48px auto;
+	width: 340px;
+	height: 350px;
+	background-color: #a1cc3a;
+	opacity: .9;
+	border: 0px;
+	position: relative;
+
+}
+
+#form:hover {
+	opacity: 1;
+}
+
+.inputs {
+	width: 100%;
+	height: 70px;
+	font-size: 1.4rem;
+	padding: 0px;
+	
+
+}
+
+#submit {
+	width: 101.2%;
+	height: 50px;
+	font-size: 1rem;
+	cursor: pointer;
+	opacity: .9;
+	font-family: Arial;
+
+}
+
+#viewRecords {
+	width: 342px;
+	height: 40px;
+	margin-top: 1px;
+	margin-left: 1.4px;
+	background: orange;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: Arial;
+	padding-top: 10px;
+	opacity: .9;
+}
+
+#viewRecords:hover {
+	box-shadow: 0.1px 0.1px 0.1px black;
+}
+
+table {
+	border: 2px solid white;
+	background-color: grey;
+	opacity: 0.9;
+	width: 100%;
+	border-collapse: collapse;
+	color: white;
+}
+
+tr {
+	border: 2px solid white;
+} 
+
+.titles, .tData {
+	padding: 10px;
+	margin-left: 120px;
+	text-align: left;
+	border: 1px solid white;
+	
+}
+
+tr th:nth-child(1) {
+	text-align: left;
+}
+
+#x {
+	background-color: red;
+	
+	opacity: .8;
+}
+
+#x:hover {
+	opacity: 1;
+}
+
+a {
+text-decoration: none;
+cursor: pointer;
+color: white;
+}
